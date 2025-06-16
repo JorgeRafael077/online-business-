@@ -1,6 +1,6 @@
 import SearchForm from "../components/SeachForm";
 
-export default async function Home({ searchParams} : { 
+export default async function Home({ searchParams } : { 
   searchParams: Promise<{ query?: string }>;
 }) {
 
